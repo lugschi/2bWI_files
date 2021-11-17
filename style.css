@@ -1,0 +1,46 @@
+.container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.box1{
+    height: 300px;
+    width: 50%;
+    background-color: black;
+}
+
+.head{
+    color: green;
+    text-align: center;
+}
+
+.countdown{
+    text-align: center;
+}
+
+.label{
+    color: white;
+    font-size: 20px;
+}
+
+#counting{
+    height: 25px;
+    width: 60px;
+    font-size: 15px;
+}
+
+.button{
+    align-items: center;
+}
+
+#Timer{
+    text-align: center;
+    margin-top: 20px;
+    height: 20px;
+    width: 100px;
+    background-color: white;
+    color: black;
+    
+}
