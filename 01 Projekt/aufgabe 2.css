@@ -1,0 +1,37 @@
+.wrapper{
+    display: flex;
+    flex-wrap: nowrap;
+}
+
+.flex-container{
+    display: flex;
+    flex-wrap: nowrap;
+    height: 75px;
+    width: 1500px;
+    background-color: red;
+}
+
+.list{
+    list-style-type: circle;
+    
+}
+.img{
+    display: flex;
+    flex-direction: column-reverse;
+}
+.section{
+    flex-grow: 12;
+    
+    
+}
+.p1{
+color: grey;
+text-align: center;
+font-size: 100px;
+font-weight: 900;
+
+}
+.li{
+    font-size: x-large;
+
+}

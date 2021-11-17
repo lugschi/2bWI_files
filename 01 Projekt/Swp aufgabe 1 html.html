@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="de">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        html {
+            /* Schriftfarbe und Schriftart für die gesmate HTML Seite*/
+            color: white;
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        .wrapper {
+            /* Container der die ganze Seite einschließt */
+            display: flex;
+            flex-wrap: nowrap;
+        }
+
+        .section-left { /* linker Bereich also Inhalt */
+            background-color: grey;
+            flex-grow: 6;
+        }
+
+        .section-right { /* rechter Bereich also Werbung oder so */
+            flex-grow: 6;
+            background: white;
+        }
+
+        .flex-container {
+            display: flex;
+            flex-wrap: nowrap;
+        }
+
+        ul#list li {
+            /* die Menu-Items werden dadurch nebeneinander platziert*/
+            display: inline;
+            margin-right: 70px;
+        }
+
+        .vorarlberg {
+            display: flex;
+            flex-direction: column;
+            margin-top: 100px;
+            margin-left: 20px;
+
+        }
+
+        .bg-red {
+            background-color: red;
+        }
+        .bg-darkred {
+            background-color: darkred;
+        }
+        .bg-grey {
+            background-color: grey;
+        }
+        .bg-rgb-red{
+            background-color: rgb(200, 0, 0);
+        }
+        
+    </style>
+</head>
+
+<body>
+
+    <div class="wrapper"><!-- Container der die ganze Seite einschließt -->
+        <div class="section-left"><!-- linker Bereich -->
+            <div class="flex-container bg-darkred"><!-- 1. Reihe / Menüleiste -->
+                <!-- 1. Reihe / Box in dunkelrot und rot -->
+                <div style="flex-grow: 9;" class="bg-darkred">
+                    <ul id="list">
+                        <li>Fernsehen</li>
+                        <li>TVthek</li>
+                        <li>Radiothek</li>
+                        <li>Debatte</li>
+                        <li>Österreich</li>
+                        <li>Wetter</li>
+                        <li>Sport</li>
+                        <li>News</li>
+                    </ul>
+                </div>
+                <div style="flex-grow: 3;" class="bg-darkred">
+                    <p>ORF.at im Überblick</p>
+                </div>
+            </div>
+            <div class="flex-container bg-red" style="align-items: center;"><!-- 2. Reihe / Box mit orf Logo -->
+                
+                <div class="bg-red" style="flex-grow: 1;">
+                    <p style="font-size: 20px; margin-left: 3vw;">Vorarlberg</p>
+                </div>
+                <div class="bg-red" style="flex-grow: 11;">
+                    <img src="https://oekastatic.orf.at/mojo/1_4_1/storyserver//oeka/common/images/target.news.red.svg"
+                        width="30%" alt="" height="30%">
+                </div>      
+            </div>
+            <div class="flex-container bg-rgb-red"><!-- 3. Reihe / graue Leiste -->
+                <div style="padding: 0.5vh;">
+                </div>
+            </div>
+            <div class="flex-container bg-darkred"><!-- 4. Reihe / 2. Menüleiste -->
+                <!-- 3. Reihe / Box mit Hintergrund -->
+                <div style="flex-grow: 11; color: white;">
+                    <ul id="list">
+                        <li>Vorarlberg News</li>
+                        <li>Radio Vorarlberg</li>
+                        <li>Vorarlberg heute</li>
+                        <li>ORF Vorarlberg</li>
+                        <li>Ganz Österreich</li>
+                    </ul>
+                </div>
+                <div style="flex-grow: 1; color: hotpink;"><img
+                        src="https://www.flaticon.com/svg/static/icons/svg/2097/2097743.svg" width="40px"
+                        height="40px">
+                </div>
+            </div>
+            <div class="flex-container bg-red"><!-- 5. Reihe / Covid Bild-->
+                <!-- 4. Reihe / Box mit Bild -->
+                <div style="flex-grow: 12">
+                    <img style="width: 100%;" src="covid 19.jpg">
+                </div>
+            </div>
+            <div class="flex-container bg-red"><!-- 6. Reihe / Covid Meldung -->
+                <!-- 4. Reihe / Box mit Bild -->
+                <div style="flex-grow: 3;"></div>
+                <div style="color: black;background-color: white; flex-grow: 6; margin-top: -50px;">
+                    <p>Coronavirus 19 Neue Infektionen und ein Todesopfer</p>
+                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Eligendi, animi molestiae
+                        laboriosam
+                        saepe totam commodi!</p>
+                        
+                </div>
+                <div style="flex-grow: 3"></div>
+            </div>
+        </div> 
+        <div class="section-right"><!-- rechter Bereich -->
+            <p style="color: white;"></p>
+        </div>
+   </div>
+
+</body>
+
+</html>

@@ -1,0 +1,24 @@
+.Überschrift{
+    display: flex;
+    position: relative;
+    justify-content: center;
+}
+
+.Name{
+    padding-left: 20px;
+}
+
+.KW{
+    padding-left: 100px;
+}
+
+#Tag{
+    padding-left: 30px;
+}
+
+#Button{
+    position: absolute;
+    right: 30px;
+    bottom: 30px;
+
+}

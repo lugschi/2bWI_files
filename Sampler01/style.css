@@ -1,0 +1,42 @@
+.container{
+    height: 100px;
+    width: 100%;
+    position: relative;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+
+body{margin: 0px}
+
+.header1{
+    height: 50px;
+    width: 400px;
+    background-color: royalblue;
+    display: flex;
+    position: absolute;
+    left: 300px;
+    justify-content: space-evenly;
+}
+
+.header2{
+    height: 50px;
+    width: 400px;
+    background-color: red;
+    display: flex;
+    position: absolute;
+    right: 175px;
+    justify-content: space-evenly;
+}
+
+
+.headercolor{
+    color: orange;
+}
+
+.size{
+    font-size: 16px;
+    font-weight: bold;
+    color: orange;
+}

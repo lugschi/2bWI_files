@@ -1,0 +1,14 @@
+.table{
+    border-style: inset;
+    width: 100%;
+    flex-wrap: nowrap;
+}
+.tablerow{
+    display: table-row;
+    border-style: dotted;
+    width: 300px;
+    height: 500px;
+    left: 100px;
+    
+}
+   

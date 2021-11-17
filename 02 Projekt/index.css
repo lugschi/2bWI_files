@@ -1,0 +1,70 @@
+.container1{
+    background-color: red;
+    width: 400px;
+    height: 100px;
+    text-align: center;
+    margin-bottom: 10px;
+}
+.p1{
+    font-size: xx-large;
+    font-weight: 900;
+}
+.p2{
+    font-size: x-small;
+    font-weight: 10;    
+}
+
+.container2{
+    width: 400px;
+    height: 200px;
+    background-color: orange;
+    text-align: center;
+    
+}
+.container3{
+    width: 400px;
+    height: 200px;
+    background-color: blue;
+    text-align: center;
+    
+}
+.containerx{
+    display: flex;
+    flex-direction: row;
+    
+}
+.p3{
+    font-size: x-large;
+    font-weight: 900;
+}
+
+.li1{
+    display: inline-block;
+    background-color: brown;
+    height: 20px;
+    width: 100px;
+    font-size: smaller;
+    color: white;
+  
+}
+
+.list:hover{
+    background-color: black;
+    cursor: pointer;
+}
+.p4{
+    font-size: x-large;
+    font-weight: 900;
+}
+
+.p5{
+    background-color: black;
+    color: white;
+    height: 300px;
+    width: 300px;
+    position: absolute;
+    margin: 0px;
+    top: 20px;
+    right: 20px;
+    
+}

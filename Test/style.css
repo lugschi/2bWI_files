@@ -1,0 +1,57 @@
+.container{
+    width: 100%;
+    height: 100px;
+    background-color: yellow;
+    justify-content: flex-end;
+    align-items: center;
+    display: flex;
+    position: relative;
+    
+    
+}
+
+body{
+    margin: 0px;
+}
+
+.box1{
+    height: 30px;
+    width: 30px;
+    background-color: yellowgreen;
+    position: relative;
+    margin-right: 20px;
+    
+}
+
+.container2{
+    height: 300px;
+    width: 400px;
+    background-color: lightblue;
+    margin-top: 20px;
+    margin-left: 20px;
+    position: relative;
+}
+
+.box2{
+    height: 100px;
+    width: 100px;
+    background-color: brown;
+    position: absolute;
+    right: 0px;
+    bottom: 0px;
+}
+
+.box3{
+    height: 50px;
+    width: 50px;
+    background-color: purple;
+    position: absolute;
+    right: 0px;
+    bottom: 0px;
+
+}
+
+.header{
+    padding-left: 20px;
+    padding-top: 20px;
+}
