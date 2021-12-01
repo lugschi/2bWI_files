@@ -35,7 +35,7 @@
     align-items: center;
 }
 
-#Timer{
+#counter{
     text-align: center;
     margin-top: 20px;
     height: 20px;
@@ -43,4 +43,31 @@
     background-color: white;
     color: black;
     
+}
+
+.container2{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.box2{
+    height: 300px;
+    width: 50%;
+    background-color: black;
+}
+
+
+#timer{
+    text-align: center;
+    margin-top: 20px;
+    height: 20px;
+    width: 100px;
+    background-color: white;
+    color: black;
+}
+
+#starten{
+    margin-right: 10px;
 }
