@@ -34,14 +34,28 @@ var game = new Phaser.Game(config);
 function preload ()
 {
     this.load.image('green', 'assets01/green.png');
+    this.load.image('apple', 'assets01/apple.png');
+    this.load.image('Snakehead', 'assets01/Snakehead.png');
+    this.load.image('snaketail', 'assets01/snaketail.png');
 }
 
 function create ()
 {
     this.add.image(360, 360, 'green');
+    this.add.image(32, 35, 'apple');
+    this.add.image(107, 325, 'Snakehead');
+
+    this.anims.create({
+            key: 'right',
+            frames: this.anims.generateFrameNumbers('Snakehead', { start: 5, end: 8 }),
+            frameRate: 10,
+            repeat: -1
+        });
 }
 
 function update ()
 {
+    scoreText = this.add.text(500, 16, 'score: 0', { fontSize: '40px', fill: '#D4A5FF' });
+    
 }
 </script>
